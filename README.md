@@ -1,6 +1,16 @@
 # catkin_purt
 PURT mocap base workspace
 
+This should be cloned into the catkin/src directory.
+
+When building mavlink_sitl_gazebo, it is recommended to use
+
+```bash
+catkin build -jN
+```
+
+Where N is number of processors/ threads on your computer - 1.
+
 This repository locks down the mavlink and mavros
 versions for a specific version of PX4. By building
 from source within the workspace, this will prevent ubuntu mavros
